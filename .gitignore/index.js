@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
 const config = require("./config.json");
 const request = require('request');
-const YTDL = require('ytdl-core');
-var maj = require('./module.js');
-
 var client = new Discord.Client();
 
 
