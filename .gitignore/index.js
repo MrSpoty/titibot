@@ -423,7 +423,7 @@ client.on("message", async message => {
     var help_embed = new Discord.RichEmbed()
       //.setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
       .setColor('#33ccff')
-      .addField("Informations", `Ce bot est un bot pour un serveur Discord qui appartient a un serveur Minecraft nommé Antalya.\nN'hésitez pas à executer des commandes pour avoir leur fonctions.`)
+      .addField("Informations", `N'hésitez pas à executer des commandes pour avoir leur fonctions.`)
       .addField("👑 Créateur du bot", "<@294911123541458955>", "true")
       .addField("👥 Nombre de personne sur le discord", `${message.guild.memberCount}`, "true")
       .addField("🗺 Région du serveur", `${message.guild.region}`)
