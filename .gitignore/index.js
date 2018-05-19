@@ -1467,7 +1467,7 @@ client.on('message', message => {
 
 
 
-client.login(config.token);
+client.login(cprocess.env.TOKEN);
 //<:okman65:431120800947503105>
 
 //.then(msg => {
