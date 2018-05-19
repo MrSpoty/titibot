@@ -93,7 +93,7 @@ client.on('message', message => {
       //.addField(prefix + "question [question/idee]", "Vous avez une question ou une idée, envoie la avec cette commande.", "true")
       //.addField(prefix + "helpfun", "Liste des commandes fun.")
       //.addField(prefix + "helpmodo", "List des commandes pour modérateur.")
-      .setFooter("AntaBot | ?help", "")
+      .setFooter("TinoxeBot", "")
       var help_embed = new Discord.RichEmbed()
       .setTitle("Commande de modération")
       .setColor('#33ccff')
