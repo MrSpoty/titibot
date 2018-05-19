@@ -106,7 +106,7 @@ client.on('message', message => {
       .addField(prefix + "clear [nombre]", "Effacer un salon.")
       //.addField(prefix + "maj [version]", "Met à jour le bot **SI MAL UTILISÉE PEUT CORROMPRE LE BOT**.")
       .setThumbnail("")
-      .setFooter("AntaBot | ?help", "")
+      .setFooter("TinoxeBot", "")
     message.channel.send(help_embed);
     message.channel.send(help2_embed);
     console.log(`[BOT] Commande aide executée par ${message.member.displayName} !`);
@@ -431,7 +431,7 @@ client.on("message", async message => {
       .addField("👥 Nombre de personne sur le discord", `${message.guild.memberCount}`, "true")
       .addField("🗺 Région du serveur", `${message.guild.region}`)
       //.setThumbnail("")
-      .setFooter("AntaBot | ?help", "")
+      .setFooter("TinoxeBot", "")
     message.channel.send(help_embed);
 
     console.log(`[BOT] Commande information executée par ${message.member.displayName} !`);
