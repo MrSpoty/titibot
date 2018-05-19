@@ -83,7 +83,7 @@ client.on('message', message => {
       .setTitle("Commande")
       .setDescription("__**N'oubliez pas que le préfix est \"#\"**__")
       .setColor('#33ccff')
-      .addField(prefix + "report [membre] [raison]", "Demande de verification vers le joueur demandé pour quelconque raison.", "true")
+      //.addField(prefix + "report [membre] [raison]", "Demande de verification vers le joueur demandé pour quelconque raison.", "true")
       //.addField(prefix + "ip", "Avoir l'ip")//l'état du serveur.
       .addField(prefix + "info", "Avoir des informations sur le bot.")
       .addField(prefix + "ping", "Avoir la vitesse du bot")
