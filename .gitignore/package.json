@@ -1,7 +1,7 @@
 {
-  "name": "AY",
+  "name": "titibot",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
     "discord.js": "^11.3.0",
     "discord.js-arbitrary-ffmpeg": "^1.0.0",
